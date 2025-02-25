@@ -14,16 +14,16 @@ body {
     background-color: hsl(0, 0%, 100%);
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     max-width: 300px;
+    height: 30rem;
     border-radius: 5%;
     box-shadow: 20px 10px 40px rgba(0, 0, 0, 0.226);
+    margin-bottom: 1rem;
 }
 
 .qrcode {
-    max-width: 250px;
-    border-radius: 15%;
+    max-width: 280px;
+    border-radius: 6%;
     margin: 1rem;
 }
 
@@ -49,11 +49,10 @@ body {
 @media screen and (max-width: 337px) {
     #cardWrapper {
         max-width: 250px;
-        flex-shrink: 2;
+        height: 50dvh;
     }
     .qrcode {
-        max-width: 200px;
-        width: 70vw;
-        height: auto;
+        max-width: 270px;
+        min-width: 60vw;
     }
 }
